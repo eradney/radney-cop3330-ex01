@@ -1,4 +1,4 @@
-package org.example.;
+package org.example;
 
 import java.util.Scanner;
 
@@ -7,10 +7,10 @@ import java.util.Scanner;
  *  Copyright 2021 Emily Radney
  */
 
-public class Main {
+public class App {
     public static void main(String[] args) {
-        var scnr = new java.util.Scanner(System.in);
-        var name;
+        Scanner scnr = new java.util.Scanner(System.in);
+        String name;
 
         System.out.print("What is your name? ");
         name = scnr.nextLine();
